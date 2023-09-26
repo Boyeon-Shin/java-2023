@@ -21,6 +21,8 @@ public class ScannerEx2 {
 //		String fullName = scanner.nextLine();
 //		System.out.println(fullName);
 //		
+		System.out.println("이름, 도시, 나이, 성적, 참거짓을 빈칸으로 분리하여 입력하세요");
+		
 		String name = scanner.next();
 		System.out.println("이름 : " + name);
 		String city = scanner.next();
