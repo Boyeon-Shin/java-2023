@@ -1,7 +1,7 @@
 package student;
 
 public class Student {
-	int studentID;
+	private int studentID;
 	String  department; 
 	String name; 
 	String phoneNumber;
@@ -19,6 +19,7 @@ public class Student {
 		this.phoneNumber = phoneNumber;
 		
 	}
+	
 	
 	
 	void print() {

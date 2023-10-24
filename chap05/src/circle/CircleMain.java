@@ -5,10 +5,10 @@ public class CircleMain {
 	public static void main(String[] args) {
 		Circle circle;  // 객체 참조 변수 
 		circle = new Circle(); // 객체 생성
-	
+
 		
-		Circle pizza;
-		pizza = new Circle(); 
+		Circle pizza = new Circle(); 
+		
 //		System.out.println(pizza.name);
 		
 		pizza.name = "자바피자피자"; 
@@ -27,6 +27,11 @@ public class CircleMain {
 		// 생성자 사용시 (더 편리)
 		Circle egg = new Circle(2, "계란");   
 		System.out.println(egg.getArea());
+		
+		Circle clock = new Circle(10);
+		System.out.println(clock.name);
+		
+		
 	}
 
 }

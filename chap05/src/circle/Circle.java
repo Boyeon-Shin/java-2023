@@ -1,7 +1,8 @@
 package circle;
 
 // public 접근 지정 
-public class Circle { // 파스칼 케이스,pascal case
+public class Circle { 
+	// 파스칼 케이스,pascal case
 	// class 멤버 변수 , 속성
 	int radius;
 	String name;
@@ -12,9 +13,9 @@ public class Circle { // 파스칼 케이스,pascal case
 	}
 
  // 디폴트 생성자, default constructor (클래스 이름과 동일)
-// 	public Circle() {
-// 		
-// 	}
+ 	public Circle() {
+		
+	}
 	
 	
 	// 메소드 오버로딩 (이름이 같은 생성자 여러개)
