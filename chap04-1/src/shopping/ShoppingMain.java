@@ -7,6 +7,5 @@ public class ShoppingMain {
 
 			Customer me = new Customer("fodk", "신보연", "djfhdj@edu.hanbat.ac.kr", "대전시 유성구 덕명동", 0);
 			me.print();
-
 	}
 }

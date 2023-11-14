@@ -28,7 +28,7 @@ public class EnumWeek {
 		case 6 : today = Week.FRIDAY; break;
 		case 7 : today = Week.SATURDAY; break;
 		}
-		System.out.println(week);
+		System.out.println(today);
 		if (today == Week.SUNDAY) {
 			System.out.println("일요일에는 영화를 봅니다");
 		} else {

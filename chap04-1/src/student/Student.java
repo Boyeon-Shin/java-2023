@@ -1,7 +1,8 @@
 package student;
 
 public class Student {
-	private int studentID;
+//	private int studentID;
+	int studentID;
 	String  department; 
 	String name; 
 	String phoneNumber;
