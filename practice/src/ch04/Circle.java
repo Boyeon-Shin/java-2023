@@ -21,7 +21,7 @@ public class Circle {
 
 		}
 		for (int i = 0; i < Area.length; i++) {
-			System.out.println((int) (Area[i].getArea()) + " ");
+			System.out.println((double) (Area[i].getArea()) + " ");
 		}
 
 	}

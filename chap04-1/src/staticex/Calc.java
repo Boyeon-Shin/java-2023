@@ -22,6 +22,6 @@ public class Calc {
 	public static void printStatic() {
 		System.out.println(enable);
 		System.out.println(value);    
-		System.out.println(other);   // static 메소드 static 멤버만 사용 가능
+//		System.out.println(other);   // static 메소드 static 멤버만 사용 가능
 	}
 }
