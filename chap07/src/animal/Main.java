@@ -6,11 +6,14 @@ public class Main {
 		Cat cat = new Cat("나비");
 		Dog dog = new Dog("뽀삐");
 		
-		Person me = new Person("보연", 2);
+		Person me = new Person("보연", 3);
 		
 		me.addCompanion(cat);
 		me.addCompanion(dog);
+	
 		me.soundAll();
+		
+		
 	}
 
 }

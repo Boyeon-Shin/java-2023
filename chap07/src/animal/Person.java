@@ -13,7 +13,7 @@ public class Person {
 		this.name = name;
 		this.companionCount = 0;
 	}
-	
+
 	public void addCompanion(final Animal animal) {
 		//animal 삽입할 위치를 알아야 함 
 		this.companions[this.companionCount] = animal;

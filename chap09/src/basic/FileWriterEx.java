@@ -14,7 +14,7 @@ public class FileWriterEx {
 			while((c= in.read()) != -1 ) {
 				writer.write(c);
 			}
-			write.close();
+			writer.close();
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

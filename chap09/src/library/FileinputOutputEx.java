@@ -8,10 +8,11 @@ public class FileinputOutputEx {
 	public static void main(String[] args) {
 //		File file = new File("books.txt");  // 지움 
 
-		try (Scanner scanner = new Scanner(new File("books.txt"))){
+		try (Scanner scanner = new Scanner(new File("book2.txt"))){
 //			Scanner scanner = new Scanner(new File("books.txt")); // 파일용도로 쓰기 키보드 입력이 아닌
 			while (scanner.hasNextLine()) {
-				System.out.println(scanner.nextLine());
+				
+//				System.out.println(scanner.nextLine());
 				String line = scanner.nextLine();
 				String[] splitLine = line.split(",");
 

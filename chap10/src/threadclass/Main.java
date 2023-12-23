@@ -9,10 +9,10 @@ public class Main {
 		
 		Thread beepTread = new BeepThread();
 		beepTread.start();
-		
-		Thread beepTread2 = new BeepThread();
-		beepTread2.start();
-		
+//		
+//		Thread beepTread2 = new BeepThread();
+//		beepTread2.start();
+//		
 		System.out.println("메인 스레드");
 		
 	

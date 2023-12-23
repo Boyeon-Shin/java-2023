@@ -1,11 +1,12 @@
-package library;
+package library2;
 
 public class Book {
 	private String title;
 	private String author;
 	private int pubYear;
 	private String publisher;
-	private boolean renting ;
+
+	private boolean renting;
 
 	public Book(final String title, final String author, final int pubYear, final String publisher) {
 		this.title = title;
@@ -34,19 +35,17 @@ public class Book {
 	public boolean isRenting() {
 		return renting;
 	}
-	
 	// setter 메소드
 	public void setRenting(final boolean renting) {
 		this.renting = renting;
-		
 	}
 
-	public void print() {
+	
+	void print() {
 		System.out.println("책 이름: "  + title + '/'+
 				 "저자명: " + author + '/'
 				+ "출판연도: " + pubYear + '/'
 				+ "출판사: " + publisher + '/' 
 				+ renting );
 	}
-
 }

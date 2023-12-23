@@ -10,6 +10,7 @@ public class Library  {
 		books = new Book[capacity];
 		this.capacity = capacity;
 	}
+	
 	public void addBook(final Book book) {
 		books[bookCnt] = book;
 		bookCnt++;

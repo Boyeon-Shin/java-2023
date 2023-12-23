@@ -1,5 +1,6 @@
 package object;
 
+
 public class EqualsEx {
 
 	public static void main(String[] args) {
